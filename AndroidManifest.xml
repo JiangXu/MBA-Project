@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mbaaction"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:name="com.util.actionData" android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".mbaAction"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name="logIn"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="regist1"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="regist2"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="regist3"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="regist4"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="actionInfo"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="actionInfo2"
+		android:screenOrientation="portrait"></activity>
+		<activity android:name="actionInfo3"
+		android:screenOrientation="portrait"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>

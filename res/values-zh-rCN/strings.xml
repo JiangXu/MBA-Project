@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MBAAction</string>
+    <string name="partin">抢座！</string>
+    <string name="cancel">退出这个活动</string>
+    <string name="back">返回</string>
+    <string name="noinfo">这个活动没有任何信息</string>
+    <string name="phone">若您是清华在读MBA，请直接输入手机号</string>
+    <string name="trademark">MBA活动圈</string>
+    <string name="search">搜索</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="phonename">手机号：</string>
+    <string name="next">下一步</string>
+    <string name="jump">跳过</string>
+    <string name="guide">您的信息已经导入,请核实,并设置您的密码</string>
+    <string name="name">姓名:</string>
+    <string name="mail">邮箱:</string>
+    <string name="confirm">确认密码：</string>
+    <string name="finish">完成注册</string>
+    <string name="wronginfo">很抱歉，没有查找到您的信息，可能是您的手机号变更，或数据库不完善，
+    若给您带来了不便，敬请谅解。\n请通过正常注册方式完成，谢谢您的支持。</string>
+    <string name="mustfill">必填</string>
+    <string name="namesuggest">请使用真实姓名，更有利于让活动组织者记住您，更好的发展自己的人脉！</string>
+	<string name="mailsuggest">建议使用学校邮箱</string>
+	<string name="state">我目前是：</string>
+	<string name="work">工作单位：</string>
+	<string name="worksuggest">若学生身份，请填写学校信息</string>
+	<string name="speakerinfo">主讲人信息</string>
+	<string name="actioninfo">活动信息</string>
+	<string name="otherinfo">其他信息</string>
+	<string name="mark">关注！</string>
+	<string name="partinfo">报名信息查询</string>
+	<string name="info1">已报名，要退报</string>
+	<string name="info2">关注信息查询</string>
+	<string name="logname">用户名/邮箱/手机号：</string>
+	<string-array name="actionspinner">
+　　<item>我报名的活动</item>
+　　<item>我关注的活动</item>
+	<item>所有活动信息</item>
+　　</string-array>
+	<string-array name="statespinner">
+　　<item>MBA在读</item>
+　　<item>MBA毕业校友</item>
+	<item>本科</item>
+	<item>硕士</item>
+	<item>博士</item>
+	<item>社会精英</item>
+	<item>创业者</item>
+　　</string-array>
+</resources>

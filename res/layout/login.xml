@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="300px"
+    android:layout_gravity="center">
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100px">
+	    <TextView
+	    android:id="@+id/nametext"
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="24px"
+	    android:text="@string/logname" 
+		/>
+	    <EditText
+	    android:id="@+id/nameedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize = "30px"
+		/>
+	</LinearLayout>
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100px">
+	    <TextView
+	    android:id="@+id/passwordtext"
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/password" 
+		/>
+	    <EditText
+	    android:id="@+id/passwordedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize = "30px"
+		/>
+	</LinearLayout>
+	<Button
+	android:id="@+id/loginbutton"
+	android:layout_width="150px" 
+	android:layout_height="100px"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:textSize="30px"
+	android:text="@string/login"
+	/>
+</LinearLayout>
+</RelativeLayout>

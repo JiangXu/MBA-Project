@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:id="@+id/layout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="700px">
+	<TextView
+	android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:gravity="center"
+	android:textSize="28px"
+	android:text="@string/guide"
+    />
+    <LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="100px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/name" 
+		/>
+	    <EditText
+	    android:id="@+id/nameedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+		/>
+	</LinearLayout>
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="100px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/mail" 
+		/>
+	    <EditText
+	    android:id="@+id/mailedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+		/>
+	</LinearLayout>
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="100px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/phonename" 
+		/>
+	    <EditText
+	    android:id="@+id/phoneedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+		/>
+	</LinearLayout>
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="100px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/password" 
+		/>
+	    <EditText
+	    android:id="@+id/passwordedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+		/>
+	</LinearLayout>
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="100px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/confirm" 
+		/>
+	    <EditText
+	    android:id="@+id/confirmedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+		/>
+	</LinearLayout>
+	<Button
+	android:id="@+id/finishbutton"
+	android:layout_width="200px" 
+	android:layout_height="100px"
+	android:layout_gravity="center_horizontal"
+	android:gravity="center"
+	android:textSize="30px"
+	android:text="@string/finish"
+	/>
+</LinearLayout>
+</RelativeLayout>

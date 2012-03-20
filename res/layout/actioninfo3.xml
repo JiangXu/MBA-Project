@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/titletext1"
+    android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:textSize="30px"
+    android:gravity="center"
+    />
+<TextView
+    android:id="@+id/titletext2"
+    android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:textSize="30px"
+    android:gravity="center"
+    />
+<GridView
+    android:id="@+id/infogrid"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24px"
+    />
+</LinearLayout>

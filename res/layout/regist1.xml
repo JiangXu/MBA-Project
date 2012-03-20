@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:id="@+id/layout1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="300px">
+	<TextView
+	android:layout_width="fill_parent"
+    android:layout_height="150px"
+    android:gravity="center"
+	android:textSize="28px"
+	android:text="@string/phone"
+    />
+    <LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="150px">
+	    <TextView
+	    android:layout_width="160px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:gravity="center"
+	    android:textSize="30px"
+	    android:text="@string/phonename" 
+		/>
+	    <EditText
+	    android:id="@+id/phoneedit"
+	    android:layout_width="320px" 
+	    android:layout_height="wrap_content"
+	    android:layout_gravity ="center_vertical"
+	    android:textSize="30px"
+	    android:singleLine="true"
+		android:numeric="integer"
+		/>
+	</LinearLayout>
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/layout2"
+	android:orientation="horizontal"
+	android:layout_width="300px"
+	android:layout_height="100px">
+	    <Button
+		android:id="@+id/nextbutton"
+		android:layout_width="150px" 
+		android:layout_height="100px"
+		android:gravity="center"
+		android:textSize="30px"
+		android:text="@string/next"
+		/>
+		<Button
+		android:id="@+id/next1button"
+		android:layout_width="150px" 
+		android:layout_height="100px"
+		android:gravity="center"
+		android:textSize="30px"
+		android:text="@string/jump"
+		/>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MBAAction</string>
+    <string name="partin">participate!</string>
+    <string name="cancel">cancel action</string>
+    <string name="back">back</string>
+    <string name="noinfo">this action has no any information</string>
+    <string name="phone">if you are studying MBA in Qing Hua, input your cellphone number for verifying:</string>
+    <string name="trademark">MBA Action</string>
+    <string name="search">search</string>
+    <string name="login">login</string>
+    <string name="regist">regist</string>
+    <string name="username">username:</string>
+    <string name="password">password:</string>
+    <string name="phonename">number:</string>
+    <string name="next">next</string>
+    <string name="jump">jump</string>
+    <string name="guide">your information has been guided into, please check it and set password</string>
+    <string name="name">name:</string>
+    <string name="mail">mail:</string>
+    <string name="confirm">confirm password:</string>
+    <string name="finish">finish</string>
+    <string name="wronginfo">Sorry, wrong information, please regist, thank you.</string>
+	<string name="mustfill">must fill</string>
+	<string name="namesuggest">please input your real name</string>
+	<string name="mailsuggest">please use the mail of your school</string>
+	<string name="state">state:</string>
+	<string name="work">company:</string>
+	<string name="worksuggest">if you are student, input your school information</string>
+	<string name="speakerinfo">speaker info</string>
+	<string name="actioninfo">action info</string>
+	<string name="otherinfo">other info</string>
+	<string name="mark">mark!</string>
+	<string name="partinfo">check participate information</string>
+	<string name="info1">cancel this action</string>
+	<string name="info2">check mark information</string>
+	<string name="logname">username/mail/phone：</string>
+	<string-array name="actionspinner">
+　　<item>part in action</item>
+　　<item>mark action</item>
+	<item>all action</item>
+　　</string-array>
+	<string-array name="statespinner">
+　　<item>MBA Learning</item>
+　　<item>MBA educated</item>
+	<item>Bachelor</item>
+	<item>Master</item>
+	<item>Doctor</item>
+	<item>Social Elite</item>
+	<item>Entrepreneur</item>
+　　</string-array>
+</resources>

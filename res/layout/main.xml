@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+	android:id="@+id/layout1" 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="100px">
+    <TextView
+    android:layout_width="160px" 
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:textSize = "30px"
+    android:text="@string/trademark" 
+	/>
+    <EditText
+    android:id="@+id/searchedit"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:textSize = "30px"
+	/>
+	<TextView
+	android:id="@+id/searchtext"
+    android:layout_width="90px" 
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:textSize = "30px"
+    android:text="@string/search" 
+	/>
+</LinearLayout>
+<RelativeLayout
+	android:id="@+id/layout1" 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="100px">
+    <Spinner
+    android:id="@+id/schoolspinner"
+    android:layout_marginLeft="0px"
+    android:layout_marginTop="0px"
+    android:layout_width="160px" 
+    android:layout_height="fill_parent"
+    android:textSize = "24px"
+    />
+    <Spinner
+    android:id="@+id/actionspinner"
+    android:visibility="invisible"
+    android:layout_marginLeft="170px"
+    android:layout_marginTop="0px"
+    android:layout_width="160px" 
+    android:layout_height="fill_parent"
+    android:textSize = "24px"
+    />
+    <TextView
+    android:id="@+id/nametext"
+    android:visibility="invisible"
+    android:layout_width="120px" 
+    android:layout_height="fill_parent"
+    android:textSize = "24px"
+    android:gravity="center" 
+	/>
+	<TextView
+    android:id="@+id/logintext"
+    android:visibility="visible"
+    android:layout_width="60px" 
+    android:layout_height="fill_parent"
+    android:textSize = "30px"
+    android:gravity="center"
+    android:text="@string/login" 
+	/>
+	<TextView
+    android:id="@+id/registtext"
+    android:visibility="visible"
+    android:layout_width="60px" 
+    android:layout_height="fill_parent"
+    android:textSize = "30px"
+    android:gravity="center"
+    android:text="@string/regist" 
+	/>
+</RelativeLayout>
+<ListView
+	android:id="@+id/listview"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+/>
+</LinearLayout>

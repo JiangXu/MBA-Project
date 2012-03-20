@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ScrollView
+	android:id="@+id/scrollview"  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+    android:id="@+id/infotext"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24px"
+    />
+</ScrollView>
+<TextView
+    android:id="@+id/marktext"
+    android:layout_width="wrap_content"
+    android:layout_height="40px"
+    android:textSize="24px"
+    android:gravity="center"
+/>
+<TextView
+    android:id="@+id/titletext"
+    android:layout_width="wrap_content"
+    android:layout_height="200px"
+    android:textSize="30px"
+    android:gravity="center"
+/>
+<LinearLayout
+	android:id="@+id/buttonlayout1"
+    android:orientation="vertical"
+    android:layout_width="150px" 
+    android:layout_height="200px"
+    android:visibility="visible"
+    >
+    <Button
+    android:id="@+id/partinbutton"
+    android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:textSize="18px"
+    android:text="@string/partin"
+    android:gravity="center"
+    />
+    <Button
+    android:id="@+id/markbutton"
+    android:layout_width="fill_parent"
+    android:layout_height="100px"
+    android:textSize="18px"
+    android:text="@string/mark"
+    android:gravity="center"
+    />
+</LinearLayout>
+<Button
+android:id="@+id/backbutton"
+android:layout_width="150px"
+android:layout_height="100px"
+android:textSize="30px"
+android:text="@string/back"
+android:gravity="center"
+/>
+</RelativeLayout>
